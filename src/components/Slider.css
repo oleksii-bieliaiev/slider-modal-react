@@ -1,0 +1,16 @@
+.slick-dots li button:before {
+  color: rgb(122, 121, 120);
+  font-size: 0.7rem;
+}
+
+
+.slick-dots li.slick-active button:before {
+  color:rgb(255, 255, 255);
+}
+
+.image{
+  width: 20.5vw;
+  height: auto;
+  cursor: pointer;
+}
+

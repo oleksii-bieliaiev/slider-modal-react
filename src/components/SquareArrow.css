@@ -1,0 +1,42 @@
+.square-arrow {
+  width: 40px;
+  height: 70px;
+  background-color: rgba(122, 121, 120, 0.5);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: absolute;
+  font-size: 44px;
+  color: white;
+  top: 50%;
+  left: auto;
+  right: auto;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+}
+
+.square-arrow--prev {
+  left: 25px;
+}
+
+.square-arrow--next {
+  right: -15px;
+}
+
+@media (max-width: 768px) {
+  .square-arrow {
+    width: 20px;
+    height: 35px;
+    font-size: 16px;
+  }
+
+  .square-arrow--prev {
+    left: 15px;
+  }
+
+  .square-arrow--next {
+    right: -5px;
+  }
+}
