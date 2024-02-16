@@ -67,7 +67,6 @@ export const VideoSlider = () => {
           closeModal={closeModal}
           dots={videoUrls.length}
           selectedVideoId={selectedVideoId}
-          sliderRef={sliderRef}
         />
       )}
     </div>

@@ -21,8 +21,6 @@
   padding: 5px;
   width: 100vw;
   height: 100vh;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .close {
@@ -40,17 +38,17 @@
   align-items: center;
   position: absolute;
   top: auto;
-  bottom: 1.5rem; /* Отступ от нижнего края видео */
-  left: 50%; /* Размещение точек по центру */
-  transform: translateX(-50%); /* Центрирование по горизонтали */
+  bottom: 1.5rem;
+  left: 50%; 
+  transform: translateX(-50%); 
 }
 
 .dot {
   width: 0.5rem;
   height: 0.5rem;
   border-radius: 50%;
-  background-color: rgb(60, 60, 60); /* Цвет точек */
-  margin: 0 0.5rem; /* Примерное расстояние между точками */
+  background-color: rgb(60, 60, 60);
+  margin: 0 0.5rem;
 }
 
 .dot.active {
